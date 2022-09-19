@@ -80,7 +80,7 @@ body{
   }
   h3{
     font-size:25px;
-    padding-bottom:10px;
+    padding-bottom:20px;
     margin-top:-15px
   }
 
@@ -124,11 +124,11 @@ body{
   }
 
   .icons {
-    font-size: 20px;
+    font-size: 17px;
     color: black
     
     
   }
   i.icon{
-    margin-bottom:5px
+    margin-bottom:3px
   }
