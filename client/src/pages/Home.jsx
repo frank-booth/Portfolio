@@ -19,7 +19,7 @@ const Home = () => {
             />
           </NavLink>
           <h1 className="headings">Jeff Fraley</h1>
-          <h3 className="headings">Software Engineer</h3>
+          <h3 className="headings">Full Stack Software Engineer</h3>
         </Container>
       </div>
       <div className="bottom-container">
