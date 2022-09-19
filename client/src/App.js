@@ -1,9 +1,9 @@
 import './App.css'
 import { Routes, Route } from 'react-router-dom'
-import { Button } from 'semantic-ui-react'
 import Nav from './components/Nav'
 import Home from './pages/Home'
 import Projects from './pages/Projects'
+import Contact from './components/Contact'
 
 function App() {
   return (
@@ -15,9 +15,9 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
       </main>
-      <Button>Test</Button>
     </div>
   )
 }

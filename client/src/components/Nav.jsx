@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom'
 const Nav = () => {
   return (
     <div className="nav-bar">
-      <NavLink className="links" to="/">
+      <NavLink className="links-name" to="/">
         JEFF FRALEY
       </NavLink>
       <div className="nav-links">
@@ -12,6 +12,9 @@ const Nav = () => {
         </NavLink>
         <NavLink className="links" to="/projects">
           Projects
+        </NavLink>
+        <NavLink className="links" to="/projects">
+          Contact
         </NavLink>
       </div>
     </div>
