@@ -44,6 +44,7 @@ body{
 }
 .links-name:hover{
   background-color:grey;
+  color: rgb(46,46,46);
   padding: 10px 10px;
   border-radius: 5px;
   cursor: pointer;
@@ -76,4 +77,38 @@ body{
   .profile-pic{
     margin-top:30px;
     border:solid 2px
+  }
+  .img-link{
+    text-decoration: none;
+    color:darkgray
+  }
+
+  .img-link:hover{
+    text-decoration: none;
+    color: black
+  }
+
+
+  .bottom-container{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+  
+    
+  }
+  .about-me{
+    text-align: left;
+    margin-top:20px;
+    margin-left:40%;
+    width:80%
+  }
+  p{
+    font-size: 20px;
+    text-align:left
+  }
+
+  .contact {
+    text-align: left;
+    margin-top:20px;
+    margin-left:40%
+
   }
