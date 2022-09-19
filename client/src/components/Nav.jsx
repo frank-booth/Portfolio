@@ -4,7 +4,7 @@ const Nav = () => {
   return (
     <div className="nav-bar">
       <NavLink className="links-name" to="/">
-        JEFF FRALEY
+        Jeff Fraley
       </NavLink>
       <div className="nav-links">
         <NavLink className="links" to="/">

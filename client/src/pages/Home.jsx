@@ -13,8 +13,8 @@ const Home = () => {
           centered
           circular
         />
-        <h1>Jeff Fraley</h1>
-        <h3>Software Engineer</h3>
+        <h1 className="font-link">Jeff Fraley</h1>
+        <h3 className="font-link">Software Engineer</h3>
       </Container>
     </div>
   )
