@@ -35,7 +35,7 @@ body{
   flex: 20%;
   display: flex;
   align-items: center;
-  justify-content:center;
+  justify-content:right;
   padding-right: 45px;
 }
 
@@ -60,12 +60,15 @@ body{
   border-radius: 5px;
   cursor: pointer;
   }
-
+.home-page{
+  max-width:100%;
+  align-items:center
+}
   .home-container{
     background-color:rgba(87, 69, 110,.7);
     border-top: solid 2px rgb(63, 8, 135);
     border-bottom:solid 2px rgb(63, 8, 135);
-    overflow:scroll
+   
   }
   
   .headings{

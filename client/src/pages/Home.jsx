@@ -6,7 +6,7 @@ import Picture from '../assets/profile_pic.png'
 
 const Home = () => {
   return (
-    <div>
+    <div className="home-page">
       <div className="home-container">
         <Container textAlign="center">
           <NavLink className="img-link" to="/">
