@@ -1,4 +1,4 @@
-import { Container, Image, Icon } from 'semantic-ui-react'
+import { Container } from 'semantic-ui-react'
 
 const Projects = () => {
   return (
