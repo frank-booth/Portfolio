@@ -65,7 +65,7 @@ body{
   align-items:center
 }
   .home-container{
-    background-color:rgba(87, 69, 110,.7);
+    background-color:rgba(150, 129, 176, 0.7);
     border-top: solid 2px rgb(63, 8, 135);
     border-bottom:solid 2px rgb(63, 8, 135);
    
@@ -74,6 +74,8 @@ body{
   .headings{
     font-family: 'Lato', sans-serif;
   }
+
+  
   h1{
     font-size:50px;
     margin-top:-5px
@@ -81,7 +83,8 @@ body{
   h3{
     font-size:25px;
     padding-bottom:20px;
-    margin-top:-15px
+    margin-top:-15px;
+    color:rgb(77, 60, 60)
   }
 
   .profile-pic{
@@ -126,9 +129,17 @@ body{
   .icons {
     font-size: 17px;
     color: black
-    
-    
+     
   }
   i.icon{
     margin-bottom:3px
   }
+
+  .project-help{
+    color:rgb(77, 60, 60);
+    font-size:28px;
+    padding-bottom:10px
+  }
+
+ 
+
