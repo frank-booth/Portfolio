@@ -187,5 +187,8 @@ body{
   .about-me{
     width:150%
   }
+  .footer-name, .footer-icons{
+    opacity: 1;
+  }
  }
   
