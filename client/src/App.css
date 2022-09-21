@@ -152,26 +152,19 @@ body{
     bottom: 0;
     left: 0;
     width: 100%;
-    opacity:.5
+  
   }
   .footer-name{
     font-size: 16px;
+    opacity:.7
   }
  
   .footer-icons{
+    opacity:.7;
   text-align: end;
+  }
  
-
-  }
-
-  .nav-btn{
-    padding: 5px;
-    cursor:pointer;
-    visibility:hidden;
-    opacity:0
-  }
-
- @media only screen and (max-width:800px){
+ @media only screen and (max-width:600px){
   .links-name {
     visibility:hidden
   }
