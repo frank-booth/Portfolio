@@ -173,7 +173,7 @@ body{
 
  @media only screen and (max-width:800px){
   .links-name {
-    font-size:1.2rem
+    font-size:1rem
   }
   h1{
     font-size:2rem;
@@ -192,7 +192,7 @@ body{
     visibility: hidden;
   }
   .about-me{
-    width:100%
+    width:150%
   }
  }
   
