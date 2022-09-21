@@ -5,6 +5,7 @@ import Nav from './components/Nav'
 import Home from './pages/Home'
 import Projects from './pages/Projects'
 import Contact from './components/Contact'
+import React from 'react'
 
 function App() {
   return (

@@ -164,3 +164,35 @@ body{
 
   }
 
+  .nav-btn{
+    padding: 5px;
+    cursor:pointer;
+    visibility:hidden;
+    opacity:0
+  }
+
+ @media only screen and (max-width:800px){
+  .links-name {
+    font-size:1.2rem
+  }
+  h1{
+    font-size:2rem;
+    margin-top:5px
+  }
+  h2{
+    font-size:1.4rem
+  }
+  h3{
+    font-size: 1.6rem;
+  }
+  p{
+    font-size:1.2rem
+  }
+  .contact{
+    visibility: hidden;
+  }
+  .about-me{
+    width:100%
+  }
+ }
+  
