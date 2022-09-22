@@ -1,4 +1,5 @@
-import { Container } from 'semantic-ui-react'
+import { Container, Image, Segment } from 'semantic-ui-react'
+import Whack from '../assets/whack_a_mole.png'
 
 const Projects = () => {
   return (
@@ -15,6 +16,21 @@ const Projects = () => {
             </p>
           </Container>
         </div>
+      </div>
+      <div className="whack-a-mole-container">
+        <p className="whack-a-mole-text">
+          <Image src={Whack} size="small" floated="left" />
+          Whack-A-Mole: Built with vanilla JavaScript, HTML, CSS grid system -
+          designed and developed a classic game for the web browser.
+          <br />
+          <br />
+          <a href="https://github.com/frank-booth/Whack-A-Mole" target="_blank">
+            <span>GitHub</span>
+          </a>
+          <a href="https://fraley-project1.surge.sh" target="_blank">
+            <span> / Demo</span>
+          </a>
+        </p>
       </div>
     </div>
   )

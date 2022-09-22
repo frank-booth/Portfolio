@@ -163,6 +163,17 @@ body{
     opacity:.7;
   text-align: end;
   }
+ .whack-a-mole-container{
+    margin: 20px 0 0 50px;
+    border-bottom: solid 1px;
+    width:80%;
+    padding: 10px 10px 30px 0
+    
+  }
+  .whack-a-mole-text{
+    width:100;
+  
+  }
  
  @media only screen and (max-width:600px){
   .links-name {
@@ -191,4 +202,5 @@ body{
     opacity: 1;
   }
  }
-  
+
+ 
