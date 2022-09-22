@@ -19,10 +19,12 @@ const Projects = () => {
       </div>
       <div className="whack-a-mole-container">
         <p className="whack-a-mole-text">
-          <Image src={Whack} size="small" floated="left" />
-          <span className="project-title">Whack-A-Mole:</span> Built with
-          vanilla JavaScript, HTML, CSS grid system - designed and developed a
-          classic game for the web browser.
+          <Image src={Whack} size="medium" floated="left" />
+          <span className="project-title">Whack-A-Mole</span>
+          <br />
+          <br />
+          Built with vanilla JavaScript, HTML, CSS grid system - designed and
+          developed a classic game for the web browser.
           <br />
           <a href="https://github.com/frank-booth/Whack-A-Mole" target="_blank">
             <span>GitHub</span>
