@@ -62,7 +62,8 @@ body{
   }
 .home-page{
   max-width:100%;
-  align-items:center
+  align-items:center;
+  overflow:auto
 }
   .home-container{
     background-color:rgba(150, 129, 176, 0.7);
@@ -163,31 +164,42 @@ body{
     opacity:.7;
   text-align: end;
   }
- .project3-container, .project4-container{
-    margin: 20px 0 0 110px;
+ .project2-container, .project3-container, .project4-container{
+    margin: 30px 0 0 150px;
     border-bottom: solid 1px;
     width:80%;
-  }
 
-  .project3-continer{
-    padding: 1% 1% 1% 0
+  }
+  .project2-container{
+    padding-bottom: 50px;
+  }
+  .project3-container{
+    padding-bottom:100px
   }
 
   .project4-container{
-    /* padding: 10px 10px 50px 0 */
-    padding: 1% 1% 1% 0
+    padding-bottom:130px
+    
   }
   
 
   
-  .whack-a-mole-text{
-    font-size:25px;
+  .whack-a-mole-text, .bond-text, .cyclelist-text{
+    font-size:23px;
     width:100;
+   
   }
+
 
   .project-title{
     font-size: 35px;
     font-weight: bold;
+
+  }
+  .project-title::after{
+    content:'\a';
+    white-space: pre;
+
   }
  
  @media only screen and (max-width:600px){

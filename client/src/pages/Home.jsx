@@ -34,17 +34,17 @@ const Home = () => {
         </div>
         <div className="contact">
           <h2>Contact</h2>
-          <a href="https://www.linkedin.com/in/jeff-fraley/" target="_blank">
+          <a href="https://www.linkedin.com/in/jeff-fraley/" target="blank">
             <Icon color="black" name="linkedin" size="big" />
             <span className="icons">LinkedIn</span>
           </a>
           <br />
-          <a href="https://github.com/frank-booth" target="_blank">
+          <a href="https://github.com/frank-booth" target="blank">
             <Icon color="black" name="github" size="big" />
             <span className="icons">GitHub</span>
           </a>
           <br />
-          <a href="mailto:jfraley519@gmail.com" target="_blank">
+          <a href="mailto:jfraley519@gmail.com" target="blank">
             <Icon color="black" name="mail" size="big" />
             <span className="icons">Email</span>
           </a>

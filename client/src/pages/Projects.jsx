@@ -1,6 +1,7 @@
-import { Container, Image, Segment } from 'semantic-ui-react'
-import Whack from '../assets/whack_a_mole.png'
+import { Container, Image } from 'semantic-ui-react'
+import Whack from '../assets/whack_a_mole2.png'
 import Bond from '../assets/bond.png'
+import Cycle from '../assets/cyclist.png'
 
 const Projects = () => {
   return (
@@ -18,26 +19,63 @@ const Projects = () => {
           </Container>
         </div>
       </div>
+      <div className="project2-container">
+        <p className="cyclelist-text">
+          <Image src={Cycle} size="medium" floated="left" />
+          <span className="project-title">CycleList</span>
+          Web application designed for cycle instructors to store and share
+          songs with a routine they created. As a group, we collaborated on both
+          the front-end and back-end REST API. Built with PostgreSQL,
+          Express/NodeJS, ReactJS.
+          <br />
+          <a
+            href="https://github.com/frank-booth/Bond-James-Bond"
+            target="blank"
+          >
+            <span>GitHub</span>
+          </a>
+          <a href="https://fraley-project1.surge.sh" target="blank">
+            <span> / Demo</span>
+          </a>
+        </p>
+      </div>
+      <div className="project2-container">
+        <p className="cyclelist-text">
+          <Image src={Cycle} size="medium" floated="left" />
+          <span className="project-title">CycleList</span>
+          Web application designed for cycle instructors to store and share
+          songs with a routine they created. As a group, we collaborated on both
+          the front-end and back-end REST API. Built with PostgreSQL,
+          Express/NodeJS, ReactJS.
+          <br />
+          <a
+            href="https://github.com/frank-booth/Bond-James-Bond"
+            target="blank"
+          >
+            <span>GitHub</span>
+          </a>
+          <a href="https://fraley-project1.surge.sh" target="blank">
+            <span> / Demo</span>
+          </a>
+        </p>
+      </div>
       <div className="project3-container">
-        <p className="whack-a-mole-text">
+        <p className="bond-text">
           <Image src={Bond} size="medium" floated="left" />
           <span className="project-title">Bond, James Bond</span>
-          <br />
-          <br />
           I designed and developed a James Bond site to show all things Bond.
           Built with ExpressJS, NodeJS, MongoDB and Mongoose Database.
           <br />
           <a
             href="https://github.com/frank-booth/Bond-James-Bond"
-            target="_blank"
+            target="blank"
           >
             <span>GitHub</span>
           </a>
-          <a href="https://fraley-project1.surge.sh" target="_blank">
+          <a href="https://fraley-project1.surge.sh" target="blank">
             <span> / Demo</span>
           </a>
         </p>
-        <br />
       </div>
       <div className="project4-container">
         <p className="whack-a-mole-text">
@@ -48,19 +86,16 @@ const Projects = () => {
             className="whack-image"
           />
           <span className="project-title">Whack-A-Mole</span>
-          <br />
-          <br />
           Built with vanilla JavaScript, HTML, CSS grid system - designed and
           developed a classic game for the web browser.
-          <br />
-          <a href="https://github.com/frank-booth/Whack-A-Mole" target="_blank">
+          <a href="https://github.com/frank-booth/Whack-A-Mole" target="blank">
+            <br />
             <span>GitHub</span>
           </a>
-          <a href="https://fraley-project1.surge.sh" target="_blank">
+          <a href="https://fraley-project1.surge.sh" target="blank">
             <span> / Demo</span>
           </a>
         </p>
-        <br />
       </div>
     </div>
   )
