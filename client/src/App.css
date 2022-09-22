@@ -163,13 +163,23 @@ body{
     opacity:.7;
   text-align: end;
   }
- .whack-a-mole-container{
+ .project3-container, .project4-container{
     margin: 20px 0 0 110px;
     border-bottom: solid 1px;
     width:80%;
-    padding: 10px 10px 20px 0
-    
   }
+
+  .project3-continer{
+    padding: 1% 1% 1% 0
+  }
+
+  .project4-container{
+    /* padding: 10px 10px 50px 0 */
+    padding: 1% 1% 1% 0
+  }
+  
+
+  
   .whack-a-mole-text{
     font-size:25px;
     width:100;
