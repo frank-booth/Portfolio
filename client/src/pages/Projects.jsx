@@ -20,9 +20,9 @@ const Projects = () => {
       <div className="whack-a-mole-container">
         <p className="whack-a-mole-text">
           <Image src={Whack} size="small" floated="left" />
-          Whack-A-Mole: Built with vanilla JavaScript, HTML, CSS grid system -
-          designed and developed a classic game for the web browser.
-          <br />
+          <span className="project-title">Whack-A-Mole:</span> Built with
+          vanilla JavaScript, HTML, CSS grid system - designed and developed a
+          classic game for the web browser.
           <br />
           <a href="https://github.com/frank-booth/Whack-A-Mole" target="_blank">
             <span>GitHub</span>
@@ -31,6 +31,7 @@ const Projects = () => {
             <span> / Demo</span>
           </a>
         </p>
+        <br />
       </div>
     </div>
   )

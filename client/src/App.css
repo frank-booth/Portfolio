@@ -164,15 +164,18 @@ body{
   text-align: end;
   }
  .whack-a-mole-container{
-    margin: 20px 0 0 50px;
+    margin: 20px 0 0 110px;
     border-bottom: solid 1px;
     width:80%;
-    padding: 10px 10px 30px 0
+    padding: 10px 10px 20px 0
     
   }
   .whack-a-mole-text{
     width:100;
-  
+  }
+
+  .project-title{
+    font-weight: bold;
   }
  
  @media only screen and (max-width:600px){
