@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import Resume from '../assets/fraley_resume.pdf'
+import Resume_PDF from '../assets/fraley_resume.pdf'
 import { Container, Button } from 'semantic-ui-react'
 import { Document, Page, pdfjs } from 'react-pdf/dist/esm/entry.webpack'
 import 'react-pdf/dist/esm/Page/AnnotationLayer.css'
@@ -7,7 +7,7 @@ import 'react-pdf/dist/esm/Page/AnnotationLayer.css'
 import pdfjsWorker from 'pdfjs-dist/build/pdf.worker.entry'
 pdfjs.GlobalWorkerOptions.workerSrc = pdfjsWorker
 
-const Contact = () => {
+const Resume = () => {
   const [numPages, setNumPages] = useState(null)
   const [pageNumber, setPageNumber] = useState(1)
 
@@ -25,11 +25,11 @@ const Contact = () => {
         </div>
       </div>
       <div className="pdf-file">
-        <a href={Resume} download>
+        <a href={Resume_PDF} download>
           <Button primary>Download PDF</Button>
         </a>
 
-        <Document file={Resume} onLoadSuccess={onDocumentLoadSuccess}>
+        <Document file={Resume_PDF} onLoadSuccess={onDocumentLoadSuccess}>
           {Array.from(new Array(numPages), (el, index) => (
             <Page key={`page_${index + 1}`} pageNumber={index + 1} />
           ))}
@@ -43,4 +43,4 @@ const Contact = () => {
   )
 }
 
-export default Contact
+export default Resume

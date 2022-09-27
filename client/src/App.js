@@ -4,7 +4,7 @@ import Footer from './components/Footer'
 import Nav from './components/Nav'
 import Home from './pages/Home'
 import Projects from './pages/Projects'
-import Contact from './components/Contact'
+import Resume from './components/Resume'
 import React from 'react'
 
 function App() {
@@ -17,7 +17,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/resume" element={<Resume />} />
         </Routes>
       </main>
       <Footer />
