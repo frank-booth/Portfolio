@@ -2,6 +2,7 @@ import { Container, Image } from 'semantic-ui-react'
 import Whack from '../assets/whack_a_mole2.png'
 import Bond from '../assets/bond.png'
 import Cycle from '../assets/cyclist.png'
+import Stox from '../assets/stox_tckr.png'
 
 const Projects = () => {
   return (
@@ -21,15 +22,14 @@ const Projects = () => {
       </div>
       <div className="project2-container">
         <p className="cyclelist-text">
-          <Image src={Cycle} size="medium" floated="left" />
-          <span className="project-title">CycleList</span>
-          Web application designed for cycle instructors to store and share
-          songs with a routine they created. As a group, we collaborated on both
-          the front-end and back-end REST API. Built with PostgreSQL,
-          Express/NodeJS, ReactJS.
+          <Image src={Stox} size="medium" floated="left" />
+          <span className="project-title">Stox TCKR</span>
+          Web application designed for users to track a stock portfolio and
+          search related articles. Built with PostgreSQL, Express/NodeJS,
+          ReactJS.
           <br />
           <a
-            href="https://github.com/frank-booth/Bond-James-Bond"
+            href="https://github.com/frank-booth/Stox_TCKR_Frontend"
             target="blank"
           >
             <span>GitHub</span>
@@ -49,12 +49,12 @@ const Projects = () => {
           Express/NodeJS, ReactJS.
           <br />
           <a
-            href="https://github.com/frank-booth/Bond-James-Bond"
+            href="https://github.com/frank-booth/CycleList_Frontend"
             target="blank"
           >
             <span>GitHub</span>
           </a>
-          <a href="https://fraley-project1.surge.sh" target="blank">
+          <a href="https://mighty-scrubland-76268.herokuapp.com" target="blank">
             <span> / Demo</span>
           </a>
         </p>
