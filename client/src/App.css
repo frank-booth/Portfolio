@@ -201,9 +201,14 @@ body{
     white-space: pre;
 
   }
+ .pdf-file {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
  
-  .pdf-file{
-    width:120%
+ }
+  .pdf-button{
+    margin:20px 0 0 30px
   }
  @media only screen and (max-width:600px){
   .links-name {

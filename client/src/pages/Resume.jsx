@@ -9,7 +9,7 @@ pdfjs.GlobalWorkerOptions.workerSrc = pdfjsWorker
 
 const Resume = () => {
   const [numPages, setNumPages] = useState(null)
-  const [pageNumber, setPageNumber] = useState(1)
+  const pageNumber = 1
 
   function onDocumentLoadSuccess({ numPages }) {
     setNumPages(numPages)
@@ -25,9 +25,11 @@ const Resume = () => {
         </div>
       </div>
       <div className="pdf-file">
-        <a href={Resume_PDF} download>
-          <Button primary>Download PDF</Button>
-        </a>
+        <div className="pdf-button">
+          <a href={Resume_PDF} download>
+            <Button primary>Download PDF</Button>
+          </a>
+        </div>
 
         <Document file={Resume_PDF} onLoadSuccess={onDocumentLoadSuccess}>
           {Array.from(new Array(numPages), (el, index) => (

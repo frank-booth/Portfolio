@@ -4,8 +4,7 @@ import Footer from './components/Footer'
 import Nav from './components/Nav'
 import Home from './pages/Home'
 import Projects from './pages/Projects'
-import Resume from './components/Resume'
-import React from 'react'
+import Resume from './pages/Resume'
 
 function App() {
   return (
