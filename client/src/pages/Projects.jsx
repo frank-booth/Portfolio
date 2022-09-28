@@ -54,7 +54,7 @@ const Projects = () => {
           >
             <span>GitHub</span>
           </a>
-          <a href="https://mighty-scrubland-76268.herokuapp.com" target="blank">
+          <a href="https://cyclelist.netlify.app" target="blank">
             <span> / Demo</span>
           </a>
         </p>
