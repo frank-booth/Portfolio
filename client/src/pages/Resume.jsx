@@ -11,7 +11,7 @@ const Resume = () => {
   const [numPages, setNumPages] = useState(null)
   const pageNumber = 1
 
-  function onDocumentLoadSuccess({ numPages }) {
+  const onDocumentLoadSuccess = ({ numPages }) => {
     setNumPages(numPages)
   }
 
@@ -36,7 +36,6 @@ const Resume = () => {
             <Page key={`page_${index + 1}`} pageNumber={index + 1} />
           ))}
         </Document>
-
         <p>
           Page {pageNumber} of {numPages}
         </p>
