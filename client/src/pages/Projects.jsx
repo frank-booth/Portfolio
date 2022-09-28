@@ -34,7 +34,7 @@ const Projects = () => {
           >
             <span>GitHub</span>
           </a>
-          <a href="https://fraley-project1.surge.sh" target="blank">
+          <a href="https://stox-tckr.netlify.app" target="blank">
             <span> / Demo</span>
           </a>
         </p>
@@ -71,9 +71,6 @@ const Projects = () => {
             target="blank"
           >
             <span>GitHub</span>
-          </a>
-          <a href="https://fraley-project1.surge.sh" target="blank">
-            <span> / Demo</span>
           </a>
         </p>
       </div>
