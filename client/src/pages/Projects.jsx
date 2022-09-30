@@ -45,8 +45,9 @@ const Projects = () => {
           <span className="project-title">CycleList</span>
           Web application designed for cycle instructors to store and share
           songs with a routine they created. As a group, we collaborated on both
-          the front-end and back-end REST API. Built with PostgreSQL,
-          Express/NodeJS, ReactJS.
+          the front-end and back-end REST API. I constructed several components
+          and functionalities and managed GitHub branch policies and version
+          control. Built with PostgreSQL, Express/NodeJS, ReactJS.
           <br />
           <a
             href="https://github.com/frank-booth/CycleList_Frontend"
