@@ -258,8 +258,12 @@ body{
   font-size: 1rem;
  }
  .pdf-file {
-margin-left:13%;
+margin-left:75%;
 
  }
+ .pdf-button{
+  margin:10px 0 0 -200px
+ }
+ 
  }
  
