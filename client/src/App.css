@@ -164,15 +164,16 @@ body{
     opacity:.7;
   text-align: end;
   }
- .project2-container, .project3-container, .project4-container{
+ .project1-container, .project2-container, .project3-container, .project4-container{
     margin: 30px 0 0 150px;
     border-bottom: solid 1px;
-    width:80%;
+    width:85%;
 
   }
-  .project2-container{
-    padding-bottom: 50px;
+  .project1-container, .project2-container{
+    padding-bottom: 75px;
   }
+
   .project3-container{
     padding-bottom:100px
   }
@@ -184,12 +185,11 @@ body{
   
 
   
-  .whack-a-mole-text, .bond-text, .cyclelist-text{
+  .whack-a-mole-text, .bond-text, .cyclelist-text, .stox-text{
     font-size:23px;
     width:100;
    
   }
-
 
   .project-title{
     font-size: 35px;
@@ -210,7 +210,7 @@ body{
   .pdf-button{
     margin:20px 0 0 30px
   }
- @media only screen and (max-width:600px){
+ @media only screen and (max-width:650px){
   .links-name {
     visibility:hidden
   }
@@ -221,7 +221,7 @@ body{
   h2{
     font-size:1.4rem
   }
-  h3{
+  h3, .project-help{
     font-size: 1.6rem;
   }
   p{
@@ -236,6 +236,33 @@ body{
   .footer-name, .footer-icons{
     opacity: 1;
   }
+  .project-title{
+    font-size: 1.5rem;
+    font-weight: bold;
+
+  }
+  .project-container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .project1-container, .project2-container, .project3-container, .project4-container{
+    padding-bottom: 5%;
+   
+  }
+.whack-a-mole-text, .bond-text, .cyclelist-text, .stox-text{
+  display:flex;
+  flex-direction: column;
+  width: 80%;
+  font-size: 1rem;
  }
 
+ .pdf-file {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+ 
+  width:50%
+}
+ }
  
