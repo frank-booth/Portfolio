@@ -170,12 +170,15 @@ body{
     width:90%;
 
   }
-  .project1-container, .project2-container{
+  .project1-container{
     padding-bottom: 6%
+  }
+  .project2-container{
+    padding-bottom: 4%;
   }
 
   .project3-container, .project4-container{
-    padding-bottom:8%
+    padding-bottom:10%
   }
   
   .whack-a-mole-text, .bond-text, .cyclelist-text, .stox-text{
