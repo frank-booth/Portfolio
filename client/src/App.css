@@ -165,25 +165,18 @@ body{
   text-align: end;
   }
  .project1-container, .project2-container, .project3-container, .project4-container{
-    margin: 30px 0 0 150px;
+    margin: 30px 0 0 50px;
     border-bottom: solid 1px;
-    width:85%;
+    width:90%;
 
   }
   .project1-container, .project2-container{
-    padding-bottom: 75px;
+    padding-bottom: 6%
   }
 
-  .project3-container{
-    padding-bottom:100px
+  .project3-container, .project4-container{
+    padding-bottom:8%
   }
-
-  .project4-container{
-    padding-bottom:130px
-    
-  }
-  
-
   
   .whack-a-mole-text, .bond-text, .cyclelist-text, .stox-text{
     font-size:23px;
@@ -244,7 +237,7 @@ body{
   .project-container{
     display:flex;
     flex-direction: column;
-    margin-left: -145px;
+    margin-left: -10px;
   }
   .project1-container, .project2-container, .project3-container, .project4-container{
     padding-bottom: 5%;
