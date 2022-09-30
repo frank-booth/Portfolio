@@ -244,7 +244,7 @@ body{
   .project-container{
     display:flex;
     flex-direction: column;
-    align-items: center;
+    margin-left: -100px;
   }
   .project1-container, .project2-container, .project3-container, .project4-container{
     padding-bottom: 5%;
@@ -253,6 +253,7 @@ body{
 .whack-a-mole-text, .bond-text, .cyclelist-text, .stox-text{
   display:flex;
   flex-direction: column;
+  margin-left:10px;
   width: 80%;
   font-size: 1rem;
  }
@@ -261,7 +262,6 @@ body{
   display:flex;
   flex-direction: column;
   align-items: center;
- 
   width:50%
 }
  }
